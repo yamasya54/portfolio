@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+}
+body{
+text-align: center;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+nav{background-color: black;}
+nav a{
+    display: inline-block;
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color:white;
+    margin: 10px;
+}
+nav a:hover{
+    background-color: rgb(246, 161, 52);
+    color: white;
+}
+.hero{background-image: url(./image/img.jpg);
+height: calc(100vh - 62px);
+background-size: cover;
+background-position: center center;
+position: relative;
+}
+.hero-text{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+
+.fixed{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    font-size: 40px;
+    width: 50px;
+    background-color: green;
+    border-radius: 10%;
+    color: white;
+}
+.fixed :hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
